@@ -1,7 +1,7 @@
 import numpy as np
 import os
 
-class Node:
+class Node:         # Define variables
     def __init__(self, node_index, data, parent, act):
         self.data = data
         self.parent = parent
@@ -75,7 +75,7 @@ def ActionMoveDown(CurrentNode):      # Function to move the blank tile down
         temp_arr[i + 1, j] = 0
         return temp_arr
 
-def move_tile(Action, CurrentNode):
+def move_tile(Action, CurrentNode):  #Define actions showing for blank tile moving 
     if Action == 'left':
         return ActionMoveLeft(CurrentNode)
     if Action == 'right':
@@ -87,7 +87,7 @@ def move_tile(Action, CurrentNode):
     else:
         return None
 
-def path(node):  # Find the path
+def path(node):  #Create a path list and add parent nodes explored 
     p = []
     p.append(node)
     parent_node = node.parent
