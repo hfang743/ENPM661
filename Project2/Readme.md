@@ -1,11 +1,11 @@
 
-##Library used: 
+## Library used: 
 process_time for cpmputing the running time 
 numpy for coverting map into matrix array
 matplotlib for showing the animation 
 math for representing the 8 motions
 
-
+## To run:
 1. Dijkstra_point.py:
 Run Dijkstra_point.py. 
 Enter the starting point and the goal point in the console panel. 
