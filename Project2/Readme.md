@@ -17,6 +17,6 @@ Enter the starting point and goal pointin the console panel. Robot radius and cl
 If they're inside of the obstacles or outside of the boundry(300x200), the program will return the error. 
 If inputs are correct, the program will start seaching from bottom left after it finds the solution and drwa the optimal path after reaching the goal point. 
 
-## The grid size parameter is to speed up the searching. If you change the grid size equal to 1, the time to completion will be 270s. 
+## The grid size parameter is to speed up the searching. If you change the grid size equal to 2, the time to completion will be 933.25s. 
 
 
