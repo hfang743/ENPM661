@@ -322,8 +322,8 @@ def cart2img(ix):
 def obs():
     a = np.zeros((200,300),np.uint8)
 
-    r = 0
-    c = 6
+    r = 2
+    c = 2
     # print("Circle: ", circular_obstacle(r, c, [225, 150]))
 
     for i in range(0,299):
